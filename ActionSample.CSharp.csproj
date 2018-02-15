@@ -79,6 +79,7 @@
     <None Include="Assets\Resources\Model\README.txt" />
     <None Include="Assets\Resources\Prefab\README.txt" />
     <None Include="Assets\Resources\README.txt" />
+    <None Include="Assets\Resources\Shader\CustomSurfaceShader.shader" />
     <None Include="Assets\Resources\Shader\README.txt" />
     <None Include="Assets\Resources\Sound\Bgm\README.txt" />
     <None Include="Assets\Resources\Sound\README.txt" />
