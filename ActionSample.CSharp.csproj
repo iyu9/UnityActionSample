@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Actor\Player.cs" />
     <Compile Include="Assets\Scripts\Common\CommonDefine.cs" />
+    <Compile Include="Assets\Scripts\Global\App.cs" />
     <Compile Include="Assets\Scripts\Object\Block.cs" />
     <Compile Include="Assets\Scripts\Object\Bullet.cs" />
     <Compile Include="Assets\Scripts\UI\ActorUI.cs" />
