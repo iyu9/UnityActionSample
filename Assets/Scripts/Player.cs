@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
     GetRefs();
   }
 
-  private void Jump()
+  public void Jump()
   {
     StartCoroutine(AsyncJumping());
   }

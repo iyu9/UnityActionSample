@@ -98,28 +98,7 @@ public class MainView : MonoBehaviour
   /// </summary>
   private void Jump()
   {
-    StartCoroutine(AsyncJumping());
-  }
-
-  private IEnumerator AsyncJumping()
-  {
-    const float G = 2f;
-
-    float t = 0f;
-    float vy = 0.5f * G;
-
-    while (player.transform.localPosition.y >= -5f)
-    {
-      t += Time.deltaTime;
-      Vector3 pos = player.transform.localPosition;
-      pos.y += vy - (G * t);
-      player.transform.localPosition = pos;
-      yield return null;
-    }
-
-    Vector3 endPos = player.transform.localPosition;
-    endPos.y = -5f;
-    player.transform.localPosition = endPos;
+    player.Jump();
   }
 
   /// <summary>
